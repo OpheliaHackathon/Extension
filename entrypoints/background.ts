@@ -48,7 +48,7 @@ export default defineBackground(() => {
 
     const date = new Date();
 
-    const res = await fetch("http://localhost:3000/api/usage", {
+    const res = await fetch("http://localhost:3000/05_estensione.php", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
