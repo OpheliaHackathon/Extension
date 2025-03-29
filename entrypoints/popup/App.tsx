@@ -60,7 +60,7 @@ function App() {
 
         <Button asChild className="mt-2 w-full" variant="outline">
           <a
-            href="https://hackathon.apps.lorenzoc.dev/dashboard?showToken"
+            href="https://hackathon.lorenzoc.dev/dashboard?showToken"
             target="_blank"
           >
             Ottieni un token
@@ -94,7 +94,7 @@ function App() {
       <div className="flex gap-2">
         <Button asChild className="w-full" variant="outline">
           <a
-            href="https://hackathon.apps.lorenzoc.dev/dashboard"
+            href="https://hackathon.lorenzoc.dev/dashboard"
             target="_blank"
           >
             Apri la dashboard
