@@ -48,7 +48,7 @@ export default defineBackground(() => {
 
     const date = new Date();
 
-    const res = await fetch("http://localhost:3000/05_estensione.php", {
+    const res = await fetch(`${process.env.WXT_API_URL}/05_estensione.php`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
